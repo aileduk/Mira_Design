@@ -1,0 +1,203 @@
+<!DOCTYPE html>
+<html lang="en">
+	<head>
+		<meta charset="UTF-8" />
+		<meta http-equiv="X-UA-Compatible" content="IE=edge" />
+		<meta name="viewport" content="width=device-width, initial-scale=1.0" />
+		<link rel="stylesheet" href="https://unpkg.com/swiper@8/swiper-bundle.min.css" />
+		<link
+			href="https://fonts.googleapis.com/css2?family=Montserrat:wght@400;500;600;700&display=swap"
+			rel="stylesheet"
+		/>
+		<link rel="stylesheet" href="../styles/css/reset.css" />
+		<link rel="stylesheet" href="../styles/css/main.css" />
+		<title>Mira Design</title>
+	</head>
+	<body>
+		<div class="wrapper">
+			<!-- HEADER -->
+			<header class="header">
+				<div class="header__container">
+					<a href="./main.html" class="header__logo">
+						<img src="../images/main/header/logo.svg" alt="Logo" />
+					</a>
+					<nav class="header__menu menu">
+						<ul class="menu__list">
+							<li class="menu__item"><a href="./about.html">О нас</a></li>
+							<li class="menu__item"><a href="./portfolio.html">Портфолио</a></li>
+							<li class="menu__item"><a href="./price.html">Услуги и цены</a></li>
+							<li class="menu__item"><a href="./contacts.html">Контакты</a></li>
+						</ul>
+					</nav>
+					<button type="button" class="mobile__btn">
+						<span></span>
+					</button>
+				</div>
+			</header>
+
+			<!-- MOBILE-NAV -->
+			<div class="mobile__nav">
+				<nav class="mobile__menu menu">
+					<ul class="mobile__list">
+						<li class="mobile__item"><a href="./about.html">О нас</a></li>
+						<li class="mobile__item"><a href="./portfolio.html">Портфолио</a></li>
+						<li class="mobile__item"><a href="./price.html">Услуги и цены</a></li>
+						<li class="mobile__item"><a href="./contacts.html">Контакты</a></li>
+					</ul>
+				</nav>
+			</div>
+
+			<!-- MAIN -->
+			<main class="main">
+				<!-- GALLERY -->
+				<div class="gallery">
+					<div class="gallery__container">
+						<div class="swiper">
+							<div class="swiper-wrapper">
+								<div class="swiper-slide">
+									<img src="../images/main/gallery/image-1.png" alt="Slide" />
+								</div>
+								<div class="swiper-slide">
+									<img src="../images/main/gallery/image-2.png" alt="Slide" />
+								</div>
+								<div class="swiper-slide">
+									<img src="../images/main/gallery/image-3.png" alt="Slide" />
+								</div>
+							</div>
+
+							<div class="swiper-pagination"></div>
+
+							<div class="swiper-button-prev"></div>
+							<div class="swiper-button-next"></div>
+						</div>
+					</div>
+				</div>
+
+				<!-- DESIGN -->
+				<section class="design">
+					<div class="design__container">
+						<h2 class="design__title">Наши преимущества</h2>
+						<div class="design__items">
+							<div class="design__item item-design">
+								<div class="item-design_icon"><img src="../images/main/design/image-1.svg" alt="Image" /></div>
+								<h3 class="item-design_subtitle">РАЗРАБАТЫВАЕМ ДИЗАЙН</h3>
+								<div class="item-design_text">
+									Разрабатываем эксклюзивные интерьеры для частных и общественных объектов. Придумываем смелые решения
+									дизайна, выдерживая баланс между стилем и комфортом для проживания.
+								</div>
+							</div>
+							<div class="design__item item-design">
+								<div class="item-design_icon"><img src="../images/main/design/image-2.svg" alt="Image" /></div>
+								<h3 class="item-design_subtitle">ДЕЛАЕМ РЕМОНТ</h3>
+								<div class="item-design_text">
+									Наша бригада рабочих имеет большой опыт работы с современными материалами, и без проблем справляется с
+									самыми необычными дизайнерскими решениями.
+								</div>
+							</div>
+							<div class="design__item item-design">
+								<div class="item-design_icon"><img src="../images/main/design/image-3.svg" alt="Image" /></div>
+								<h3 class="item-design_subtitle">КОМПЛЕКТУЕМ ИНТЕРЬЕРЫ</h3>
+								<div class="item-design_text">
+									У нас есть производство, где мы изготовим любую встраиваемую мебель, что позволяет нам не ограничивать
+									полет фантазии дизайнера на этапе проектирования интерьера.
+								</div>
+							</div>
+						</div>
+					</div>
+				</section>
+
+				<!-- STATISTICS -->
+				<div class="statistics">
+					<div class="statistics__container">
+						<div class="statistics__items">
+							<div class="statistics_item stat">
+								<div class="stat_num">1250</div>
+								<div class="stat_text">кв. м ПЛОЩАДИ</div>
+							</div>
+							<div class="statistics_item stat">
+								<div class="stat_num">67</div>
+								<div class="stat_text">ДОМОВ</div>
+							</div>
+							<div class="statistics_item stat">
+								<div class="stat_num">124</div>
+								<div class="stat_text">КВАРТИРЫ</div>
+							</div>
+							<div class="statistics_item stat">
+								<div class="stat_num">23</div>
+								<div class="stat_text">КОММЕРЧЕСКИХ ПОМЕЩЕНИЯ</div>
+							</div>
+						</div>
+					</div>
+				</div>
+
+				<!-- PROJECTS -->
+				<section class="projects">
+					<div class="projects__container">
+						<h2 class="projects__title">Наши проекты</h2>
+						<div class="projects__items">
+							<div class="projects__item proj">
+								<div class="proj_image"><img src="../images/main/projects/image-1.png" alt="Image" /></div>
+								<div class="proj_text">
+									Neva Towers, Москва-Сити. <br />
+									Студия 51 кв. м
+								</div>
+							</div>
+							<div class="projects__item proj">
+								<div class="proj_image"><img src="../images/main/projects/image-2.png" alt="Image" /></div>
+								<div class="proj_text">
+									Пр. Вернадского, <br />
+									Квартира 62 кв. м
+								</div>
+							</div>
+							<div class="projects__item proj">
+								<div class="proj_image"><img src="../images/main/projects/image-3.png" alt="Image" /></div>
+								<div class="proj_text">
+									ЖК Река, <br />
+									квартира 53 кв. м.
+								</div>
+							</div>
+						</div>
+						<button class="projects__btn"><a href="./portfolio.html">Смотреть больше</a></button>
+					</div>
+				</section>
+
+				<!-- CONTACTS -->
+				<section class="contacts">
+					<div class="contacts__container">
+						<h2 class="contacts__title">Контакты</h2>
+						<div class="contacts__items">
+							<div class="contacts__item cont">
+								<div class="cont_subtitle">Адрес</div>
+								<div class="cont_text">
+									г. благовещенск, <br />
+									ул. Мирная, 29
+								</div>
+							</div>
+							<div class="contacts__item cont">
+								<div class="cont_subtitle">Часы работы</div>
+								<div class="cont_text">
+									пн-пт 10:00 - 19:00 <br />
+									сб-вс 10:00 - 15:00
+								</div>
+							</div>
+							<div class="contacts__item cont">
+								<div class="cont_subtitle">Почта</div>
+								<div class="cont_text">info@mira.design.ru</div>
+							</div>
+						</div>
+					</div>
+				</section>
+			</main>
+
+			<!-- FOOTER -->
+			<footer class="footer">
+				<div class="footer__container">
+					<div class="footer__text">interior mira design, 2022</div>
+				</div>
+			</footer>
+		</div>
+
+		<script src="https://unpkg.com/swiper@8/swiper-bundle.min.js"></script>
+		<script src="../js/script.js"></script>
+	</body>
+</html>

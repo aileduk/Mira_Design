@@ -1,0 +1,70 @@
+.contacts {
+	padding-top: 200px;
+	@media (max-width: 520px) {
+		padding-top: 150px;
+	}
+}
+
+// MAP
+.map {
+	margin-top: 50px;
+	&__container {
+		padding: 0;
+	}
+}
+
+// QUEStION
+.question {
+	text-align: center;
+	margin-bottom: 150px;
+	margin-top: 50px;
+	.question__container {
+		padding: 50px 110px;
+		background: #e5e5e5;
+		text-align: center;
+		.question__form {
+			display: flex;
+			flex-direction: column;
+			textarea {
+				min-height: 150px;
+			}
+
+			input,
+			textarea {
+				padding: 10px 10px 10px 20px;
+				border: 1px solid #000000;
+				border-radius: 10px;
+				&::placeholder {
+					font-weight: 400;
+					font-size: 14px;
+					line-height: 17px;
+					text-transform: uppercase;
+				}
+				& + * {
+					margin-top: 50px;
+				}
+			}
+		}
+	}
+	.question__btn {
+		background: #cdaf67;
+		border-radius: 10px;
+		font-weight: 500;
+		font-size: 14px;
+		line-height: 17px;
+		text-transform: uppercase;
+		color: #ffffff;
+		padding: 15px 40px;
+		margin-top: 60px;
+		transition: 0.2s;
+		&:hover {
+			background: rgba(205, 175, 103, 0.7);
+		}
+	}
+	@media (max-width: 520px) {
+		margin-bottom: 0px;
+		.question__container {
+			padding: 20px 30px;
+		}
+	}
+}

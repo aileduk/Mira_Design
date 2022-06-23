@@ -1,0 +1,111 @@
+<!DOCTYPE html>
+<html lang="en">
+	<head>
+		<meta charset="UTF-8" />
+		<meta http-equiv="X-UA-Compatible" content="IE=edge" />
+		<meta name="viewport" content="width=device-width, initial-scale=1.0" />
+		<link
+			href="https://fonts.googleapis.com/css2?family=Montserrat:wght@400;500;600;700&display=swap"
+			rel="stylesheet"
+		/>
+		<link rel="stylesheet" href="../styles/css/reset.css" />
+		<link rel="stylesheet" href="../styles/css/main.css" />
+		<link rel="stylesheet" href="../styles/css/contacts.css" />
+		<title>Contacts</title>
+	</head>
+	<body>
+		<!-- HEADER -->
+		<header class="header">
+			<div class="header__container">
+				<a href="./main.html" class="header__logo">
+					<img src="../images/main/header/logo.svg" alt="Logo" />
+				</a>
+				<nav class="header__menu menu">
+					<ul class="menu__list">
+						<li class="menu__item"><a href="./about.html">О нас</a></li>
+						<li class="menu__item"><a href="./portfolio.html">Портфолио</a></li>
+						<li class="menu__item"><a href="./price.html">Услуги и цены</a></li>
+						<li class="menu__item"><a href="./contacts.html">Контакты</a></li>
+					</ul>
+				</nav>
+				<button type="button" class="mobile__btn">
+					<span></span>
+				</button>
+			</div>
+		</header>
+		<!-- MOBILE-NAV -->
+		<div class="mobile__nav">
+			<nav class="mobile__menu menu">
+				<ul class="mobile__list">
+					<li class="mobile__item"><a href="./about.html">О нас</a></li>
+					<li class="mobile__item"><a href="./portfolio.html">Портфолио</a></li>
+					<li class="mobile__item"><a href="./price.html">Услуги и цены</a></li>
+					<li class="mobile__item"><a href="./contacts.html">Контакты</a></li>
+				</ul>
+			</nav>
+		</div>
+
+		<!-- CONTACTS -->
+		<section class="contacts">
+			<div class="contacts__container">
+				<h2 class="contacts__title">Контакты</h2>
+				<div class="contacts__items">
+					<div class="contacts__item cont">
+						<div class="cont_subtitle">Адрес</div>
+						<div class="cont_text">
+							г. благовещенск, <br />
+							ул. Мирная, 29
+						</div>
+					</div>
+					<div class="contacts__item cont">
+						<div class="cont_subtitle">Часы работы</div>
+						<div class="cont_text">
+							пн-пт 10:00 - 19:00 <br />
+							сб-вс 10:00 - 15:00
+						</div>
+					</div>
+					<div class="contacts__item cont">
+						<div class="cont_subtitle">Почта</div>
+						<div class="cont_text">info@mira.design.ru</div>
+					</div>
+				</div>
+			</div>
+		</section>
+
+		<!-- MAP -->
+		<div class="map">
+			<div class="map__container">
+				<iframe
+					src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d8971.209380677798!2d30.344788776851924!3d46.19445843690995!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x40c7dcd52e629623%3A0x6b58c41bdd799cab!2z0JDQutC60LXRgNC80LDQvdGB0LrQsNGPINC60YDQtdC_0L7RgdGC0Yw!5e0!3m2!1sru!2sua!4v1655987243791!5m2!1sru!2sua"
+					width="100%"
+					height="450"
+					style="border: 1px solid #e5e5e5"
+					allowfullscreen=""
+					loading="lazy"
+					referrerpolicy="no-referrer-when-downgrade"
+				></iframe>
+			</div>
+		</div>
+
+		<!-- QUESTION -->
+		<section class="question">
+			<div class="question__container">
+				<div class="question__form">
+					<input type="text" placeholder="ИМЯ" />
+					<input type="number" placeholder="НОМЕР" />
+					<input type="email" placeholder="EMAIL" />
+					<textarea name="" placeholder="Напишите ваши вопросы"></textarea>
+				</div>
+			</div>
+			<button class="question__btn">отправить</button>
+		</section>
+
+		<!-- FOOTER -->
+		<footer class="footer">
+			<div class="footer__container">
+				<div class="footer__text">interior mira design, 2022</div>
+			</div>
+		</footer>
+		<script src="../js/script.js"></script>
+	</body>
+</html>

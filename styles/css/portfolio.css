@@ -1,0 +1,88 @@
+.projects__container {
+  padding-top: 200px;
+}
+.projects__container .projects__items {
+  gap: 50px;
+}
+
+.consultation__container {
+  padding: 50px 110px;
+  background: #e5e5e5;
+  text-align: center;
+}
+@media (max-width: 520px) {
+  .consultation__container {
+    padding: 40px 20px;
+  }
+}
+.consultation__container .consultation__title {
+  font-weight: 700;
+  font-size: 24px;
+  line-height: 29px;
+  text-transform: uppercase;
+  color: #cdaf67;
+  margin-bottom: 60px;
+}
+.consultation__container .consultation__form {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+}
+.consultation__container .consultation__form input {
+  padding: 10px 10px 10px 20px;
+  border: 1px solid #000000;
+  border-radius: 10px;
+}
+.consultation__container .consultation__form input::-webkit-input-placeholder {
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 17px;
+  text-transform: uppercase;
+}
+.consultation__container .consultation__form input::-moz-placeholder {
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 17px;
+  text-transform: uppercase;
+}
+.consultation__container .consultation__form input:-ms-input-placeholder {
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 17px;
+  text-transform: uppercase;
+}
+.consultation__container .consultation__form input::-ms-input-placeholder {
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 17px;
+  text-transform: uppercase;
+}
+.consultation__container .consultation__form input::placeholder {
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 17px;
+  text-transform: uppercase;
+}
+.consultation__container .consultation__form input + * {
+  margin-top: 50px;
+}
+.consultation__container .consultation__btn {
+  background: #cdaf67;
+  border-radius: 10px;
+  font-weight: 500;
+  font-size: 14px;
+  line-height: 17px;
+  text-transform: uppercase;
+  color: #ffffff;
+  padding: 15px 40px;
+  margin-top: 60px;
+  -webkit-transition: 0.2s;
+  transition: 0.2s;
+}
+.consultation__container .consultation__btn:hover {
+  background: rgba(205, 175, 103, 0.7);
+}

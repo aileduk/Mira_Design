@@ -1,0 +1,183 @@
+.services {
+  padding-top: 200px;
+}
+.services .services__title {
+  font-weight: 700;
+  font-size: 24px;
+  line-height: 29px;
+  text-align: center;
+  text-transform: uppercase;
+  color: #cdaf67;
+  margin-bottom: 30px;
+}
+.services .services__container {
+  padding: 60px 115px;
+  background: #e5e5e5;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+}
+.services .services__container .services__item {
+  max-width: 500px;
+  margin-right: 50px;
+}
+.services .services__container .services__item + * {
+  margin-top: 70px;
+}
+.services .services__container .services__item .services__subtitle {
+  font-weight: 600;
+  font-size: 16px;
+  line-height: 20px;
+  text-transform: uppercase;
+  margin-bottom: 15px;
+}
+.services .services__container .services__item .services__text {
+  font-size: 14px;
+  line-height: 17px;
+}
+.services .services__container .services__info {
+  max-width: 150px;
+  font-size: 14px;
+  line-height: 17px;
+  text-transform: uppercase;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+}
+.services .services__container .services__info .info-serv_top {
+  margin-bottom: 20px;
+}
+@media (max-width: 820px) {
+  .services .services__container {
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
+    padding: 30px 50px;
+  }
+  .services .services__container .services__items {
+    margin-bottom: 50px;
+  }
+  .services .services__container .services__items .services__item {
+    max-width: 100%;
+    margin-right: 0px;
+  }
+  .services .services__container .services__info {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-orient: horizontal;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: row;
+            flex-direction: row;
+    max-width: 100%;
+  }
+  .services .services__container .services__info .info_item {
+    max-width: 150px;
+  }
+  .services .services__container .services__info .info_item + * {
+    margin-left: 20px;
+  }
+}
+@media (max-width: 520px) {
+  .services .services__container .services__info {
+    -ms-flex-wrap: wrap;
+        flex-wrap: wrap;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
+  }
+  .services .services__container .services__info .info_item {
+    max-width: 100%;
+  }
+  .services .services__container .services__info .info_item + * {
+    margin-top: 20px;
+    margin-left: 0px;
+  }
+}
+
+.collage__container {
+  padding-top: 70px;
+  text-align: center;
+}
+.collage__container .collage__images {
+  position: relative;
+  height: 570px;
+}
+.collage__container .collage__images .collage__img {
+  position: absolute;
+}
+.collage__container .collage__images .collage__img:nth-child(1) {
+  top: 0;
+  left: 0;
+}
+.collage__container .collage__images .collage__img:nth-child(2) {
+  left: 310px;
+  top: 165px;
+  z-index: 2;
+}
+.collage__container .collage__images .collage__img:nth-child(3) {
+  right: 295px;
+}
+.collage__container .collage__images .collage__img:nth-child(4) {
+  right: 0;
+  bottom: 0;
+  z-index: 2;
+}
+@media (max-width: 1100px) {
+  .collage__container .collage__images .collage__img:nth-child(3) {
+    top: 40px;
+  }
+}
+@media (max-width: 820px) {
+  .collage__container .collage__images {
+    position: static;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -ms-flex-wrap: wrap;
+        flex-wrap: wrap;
+    -webkit-box-pack: center;
+        -ms-flex-pack: center;
+            justify-content: center;
+    gap: 10px;
+    height: auto;
+  }
+  .collage__container .collage__images .collage__img {
+    position: static;
+    width: 45%;
+  }
+}
+.collage__container .collage__btn {
+  background: #cdaf67;
+  border-radius: 10px;
+  font-weight: 500;
+  font-size: 14px;
+  line-height: 17px;
+  text-transform: uppercase;
+  padding: 15px 30px;
+  color: #ffffff;
+  margin-top: 70px;
+  margin-bottom: 50px;
+  -webkit-transition: 0.2s;
+  transition: 0.2s;
+}
+.collage__container .collage__btn:hover {
+  background: rgba(205, 175, 103, 0.7);
+}
+@media (max-width: 820px) {
+  .collage__container .collage__btn {
+    margin-bottom: 20px;
+  }
+}

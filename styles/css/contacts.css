@@ -1,0 +1,103 @@
+.contacts {
+  padding-top: 200px;
+}
+@media (max-width: 520px) {
+  .contacts {
+    padding-top: 150px;
+  }
+}
+
+.map {
+  margin-top: 50px;
+}
+.map__container {
+  padding: 0;
+}
+
+.question {
+  text-align: center;
+  margin-bottom: 150px;
+  margin-top: 50px;
+}
+.question .question__container {
+  padding: 50px 110px;
+  background: #e5e5e5;
+  text-align: center;
+}
+.question .question__container .question__form {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+}
+.question .question__container .question__form textarea {
+  min-height: 150px;
+}
+.question .question__container .question__form input,
+.question .question__container .question__form textarea {
+  padding: 10px 10px 10px 20px;
+  border: 1px solid #000000;
+  border-radius: 10px;
+}
+.question .question__container .question__form input::-webkit-input-placeholder, .question .question__container .question__form textarea::-webkit-input-placeholder {
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 17px;
+  text-transform: uppercase;
+}
+.question .question__container .question__form input::-moz-placeholder, .question .question__container .question__form textarea::-moz-placeholder {
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 17px;
+  text-transform: uppercase;
+}
+.question .question__container .question__form input:-ms-input-placeholder, .question .question__container .question__form textarea:-ms-input-placeholder {
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 17px;
+  text-transform: uppercase;
+}
+.question .question__container .question__form input::-ms-input-placeholder, .question .question__container .question__form textarea::-ms-input-placeholder {
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 17px;
+  text-transform: uppercase;
+}
+.question .question__container .question__form input::placeholder,
+.question .question__container .question__form textarea::placeholder {
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 17px;
+  text-transform: uppercase;
+}
+.question .question__container .question__form input + *,
+.question .question__container .question__form textarea + * {
+  margin-top: 50px;
+}
+.question .question__btn {
+  background: #cdaf67;
+  border-radius: 10px;
+  font-weight: 500;
+  font-size: 14px;
+  line-height: 17px;
+  text-transform: uppercase;
+  color: #ffffff;
+  padding: 15px 40px;
+  margin-top: 60px;
+  -webkit-transition: 0.2s;
+  transition: 0.2s;
+}
+.question .question__btn:hover {
+  background: rgba(205, 175, 103, 0.7);
+}
+@media (max-width: 520px) {
+  .question {
+    margin-bottom: 0px;
+  }
+  .question .question__container {
+    padding: 20px 30px;
+  }
+}

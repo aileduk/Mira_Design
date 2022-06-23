@@ -1,0 +1,58 @@
+// PROJECTS
+.projects__container {
+	padding-top: 200px;
+	.projects__items {
+		gap: 50px;
+	}
+}
+// CONSULTATION
+.consultation__container {
+	padding: 50px 110px;
+	background: #e5e5e5;
+	text-align: center;
+	@media (max-width: 520px) {
+		padding: 40px 20px;
+	}
+	.consultation__title {
+		font-weight: 700;
+		font-size: 24px;
+		line-height: 29px;
+		text-transform: uppercase;
+		color: #cdaf67;
+		margin-bottom: 60px;
+	}
+	.consultation__form {
+		display: flex;
+		flex-direction: column;
+
+		input {
+			padding: 10px 10px 10px 20px;
+			border: 1px solid #000000;
+			border-radius: 10px;
+			&::placeholder {
+				font-weight: 400;
+				font-size: 14px;
+				line-height: 17px;
+				text-transform: uppercase;
+			}
+			& + * {
+				margin-top: 50px;
+			}
+		}
+	}
+	.consultation__btn {
+		background: #cdaf67;
+		border-radius: 10px;
+		font-weight: 500;
+		font-size: 14px;
+		line-height: 17px;
+		text-transform: uppercase;
+		color: #ffffff;
+		padding: 15px 40px;
+		margin-top: 60px;
+		transition: 0.2s;
+		&:hover {
+			background: rgba(205, 175, 103, 0.7);
+		}
+	}
+}
